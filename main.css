@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4 {
+font-family: 'Raleway', sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-fix{
+    display: flex;
+}
+.nav{
+flex-basis: 100%;
+
+}
+.nav ul{
+    display: flex;
+    justify-content:flex-end;
+}
+.hero{
+    background-image: url(./images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+ }
+.nav ul li{
+    padding: 10px;
+}
+.header{
+    padding: 20px 10px 10px 10px;
+    margin: 10px 20px 20px 10px;
+}
+.main-heading{
+    padding: 20px;
+    font-weight: 700;
+}
+.main-description{
+    font-size: 1.2rem;
+    padding: 20px;
+    font-weight: 400;
+    opacity: .6;
+}
+.btn{
+    width: 240px;
+    height: 60px;
+    background-color: rgb(228, 167, 167);;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+ }
+
+ /*products */
+
+ .products{
+     margin: 50px 0px 50px 0px;
+     padding: 30px 10px 40px 20px;
+     background-color: #f1f1f1;
+  }
+ .products-heading{
+     margin-top: 50px;
+     padding: 20px;
+     font-weight: 700;
+     font-size: 1.5rem;
+ }
+ .products-description{
+     margin-top: 20px;
+     padding: 20px;
+     opacity: 0.7;
+ }
+  .product{
+      padding: 40px;
+      margin-top:50px;
+  }
+  .product-description{
+      padding: 20px;
+
+  }
+  /* cards */
+
+.cards{
+    width: 100%;
+    text-align: center;
+}
+.card{
+    
+    width: 60%;
+    height: 320px;
+    margin: 0 auto;
+    border: 0.25rem;
+    margin: 0 0 2rem 0;
+    box-shadow: inset 5px 5px 0 1px rgba(255, 255, 255, 0.75);
+    background-color: rgba(100, 46, 170, 0.075);
+    border-radius: 5px;
+}
+.cards-heading{
+    padding: 20px;
+    margin: 30px 0px 10px 0px;
+}
+.cards-description{
+    padding: 20px;
+    opacity: 0.7;
+}
+.card-img{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    
+}
+.card-img img{
+    width:120px;
+}
+
+.card-description{
+    padding: 30px;
+}
+.GetStarted{
+    padding: 20px;
+}
+.GetStarted h3{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.GetStarted p{
+    padding: 30px;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: blue;
+}
